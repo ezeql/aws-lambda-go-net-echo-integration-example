@@ -1,0 +1,10 @@
+package: github.com/ezeql/aws-lambda-go-net-echo-integration-example
+import:
+- package: github.com/eawsy/aws-lambda-go-net
+  subpackages:
+  - service/lambda/runtime/net
+  - service/lambda/runtime/net/apigatewayproxy
+- package: github.com/labstack/echo
+  version: ^3.1.0-rc.1
+  subpackages:
+  - middleware

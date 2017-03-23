@@ -22,3 +22,5 @@ _testmain.go
 *.exe
 *.test
 *.prof
+/handler.zip
+/example.out.yaml
